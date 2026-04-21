@@ -67,7 +67,7 @@ namespace DoAn_LTQL
 
         private void frmSanBong_Load(object sender, EventArgs e)
         {
-            db = new Database(@"(localdb)\MSSQLLocalDB", "QLSB");
+            db = new Database(@".\SQLEXPRESS", "QLSB");
             LoadData();
         }
 

@@ -41,7 +41,6 @@
             // 
             // btnHuyBo
             // 
-            this.btnHuyBo.BackColor = System.Drawing.Color.LightGreen;
             this.btnHuyBo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnHuyBo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnHuyBo.Location = new System.Drawing.Point(12, 215);
@@ -49,7 +48,7 @@
             this.btnHuyBo.Size = new System.Drawing.Size(151, 49);
             this.btnHuyBo.TabIndex = 0;
             this.btnHuyBo.Text = "Hủy bỏ";
-            this.btnHuyBo.UseVisualStyleBackColor = false;
+            this.btnHuyBo.UseVisualStyleBackColor = true;
             this.btnHuyBo.Click += new System.EventHandler(this.btnHuyBo_Click);
             // 
             // label1
@@ -73,7 +72,6 @@
             // 
             // btnDatSan
             // 
-            this.btnDatSan.BackColor = System.Drawing.Color.LightGreen;
             this.btnDatSan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnDatSan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnDatSan.Location = new System.Drawing.Point(180, 215);
@@ -81,12 +79,11 @@
             this.btnDatSan.Size = new System.Drawing.Size(151, 49);
             this.btnDatSan.TabIndex = 0;
             this.btnDatSan.Text = "Đặt sân";
-            this.btnDatSan.UseVisualStyleBackColor = false;
+            this.btnDatSan.UseVisualStyleBackColor = true;
             this.btnDatSan.Click += new System.EventHandler(this.btnDatSan_Click);
             // 
             // btnGiaoSan
             // 
-            this.btnGiaoSan.BackColor = System.Drawing.Color.LightGreen;
             this.btnGiaoSan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnGiaoSan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnGiaoSan.Location = new System.Drawing.Point(348, 215);
@@ -94,12 +91,11 @@
             this.btnGiaoSan.Size = new System.Drawing.Size(151, 49);
             this.btnGiaoSan.TabIndex = 0;
             this.btnGiaoSan.Text = "Giao Sân";
-            this.btnGiaoSan.UseVisualStyleBackColor = false;
+            this.btnGiaoSan.UseVisualStyleBackColor = true;
             this.btnGiaoSan.Click += new System.EventHandler(this.btnGiaoSan_Click);
             // 
             // btnThemKhach
             // 
-            this.btnThemKhach.BackColor = System.Drawing.Color.LightGreen;
             this.btnThemKhach.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnThemKhach.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnThemKhach.Location = new System.Drawing.Point(517, 215);
@@ -107,7 +103,7 @@
             this.btnThemKhach.Size = new System.Drawing.Size(151, 49);
             this.btnThemKhach.TabIndex = 0;
             this.btnThemKhach.Text = "Thêm Khách";
-            this.btnThemKhach.UseVisualStyleBackColor = false;
+            this.btnThemKhach.UseVisualStyleBackColor = true;
             this.btnThemKhach.Click += new System.EventHandler(this.btnThemKhach_Click);
             // 
             // label2

@@ -55,7 +55,7 @@ namespace DoAn_LTQL
 
         private void frmKhachHang_Load(object sender, EventArgs e)
         {
-            db = new Database(@"(localdb)\MSSQLLocalDB", "QLSB");
+            db = new Database(@".\SQLEXPRESS", "QLSB");
             LoadData();
         }
 

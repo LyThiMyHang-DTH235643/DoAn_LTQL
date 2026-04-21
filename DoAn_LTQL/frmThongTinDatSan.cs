@@ -29,7 +29,7 @@ namespace DoAn_LTQL
 
         private void frmThongTinDatSan_Load(object sender, EventArgs e)
         {
-            db = new Database(@"(localdb)\MSSQLLocalDB", "QLSB");
+            db = new Database(@".\SQLEXPRESS", "QLSB");
 
             // 1. Set Tiêu đề hiển thị (Ví dụ: Sân A lúc 08:00-09:00, ngày 20/04/2026)
             lblTieuDe.Text = $"{_tenSan} lúc {_thoiGianBatDau:HH:mm}-{_thoiGianKetThuc:HH:mm}, ngày {_thoiGianBatDau:dd/MM/yyyy}";

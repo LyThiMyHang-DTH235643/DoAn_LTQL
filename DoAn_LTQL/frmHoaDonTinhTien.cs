@@ -18,16 +18,25 @@ namespace DoAn_LTQL
         int _maKH;
         int _maNV;
         decimal _tienSan;
-        public frmHoaDonTinhTien(int maDatSan)
+        bool _isXemLai;
+        public frmHoaDonTinhTien(int maDatSan, bool isXemLai = false)
         {
             InitializeComponent();
             _maDatSan = maDatSan;
+            _isXemLai = isXemLai;
         }
 
         private void frmHoaDonTinhTien_Load(object sender, EventArgs e)
         {
-            db = new Database(@"(localdb)\MSSQLLocalDB", "QLSB");
+            db = new Database(@".\SQLEXPRESS", "QLSB");
             LoadChiTietHoaDon();
+
+            if (_isXemLai == true)
+            {
+                btnXacNhanThanhToan.Enabled = false;
+                btnXacNhanThanhToan.Visible = false;
+                btnHuyBo.Text = "Đóng"; // Đổi chữ nút Hủy thành Đóng cho hợp lý
+            }
         }
 
         private void LoadChiTietHoaDon()
