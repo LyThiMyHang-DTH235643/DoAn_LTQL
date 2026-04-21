@@ -98,6 +98,12 @@
     <Compile Include="frmChiTietHoaDon.Designer.cs">
       <DependentUpon>frmChiTietHoaDon.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDatSan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +158,7 @@
     <Compile Include="frmNhanVien.Designer.cs">
       <DependentUpon>frmNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QLSB_San.Designer.cs">
@@ -167,6 +174,9 @@
     </Compile>
     <EmbeddedResource Include="frmChiTietHoaDon.resx">
       <DependentUpon>frmChiTietHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDatSan.resx">
       <DependentUpon>frmDatSan.cs</DependentUpon>
@@ -195,6 +205,19 @@
     <EmbeddedResource Include="frmNhanVien.resx">
       <DependentUpon>frmNhanVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\DoAn_LTQL.Form1.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAn_LTQL.frmChiTietHoaDon.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAn_LTQL.frmDangNhap.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAn_LTQL.frmDatSan.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAn_LTQL.frmHoaDon.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAn_LTQL.frmHoaDonTinhTien.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAn_LTQL.frmKhachHang.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAn_LTQL.frmNhanVien.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAn_LTQL.frmSanBong.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAn_LTQL.frmThongKeDoanhThu.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAn_LTQL.frmThongKe_San.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAn_LTQL.frmThongTinDatSan.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAn_LTQL.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -208,6 +231,14 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>rptDoanhThu_San.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="bin\Debug\DoAn_LTQL.exe.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\DoAn_LTQL.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\DoAn_LTQL.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\DoAn_LTQL.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\DoAn_LTQL.csproj.Up2Date" />
+    <None Include="obj\Debug\DoAn_LTQL.exe.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -235,6 +266,60 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\ClosedXML.dll" />
+    <Content Include="bin\Debug\ClosedXML.Parser.dll" />
+    <Content Include="bin\Debug\ClosedXML.Parser.xml" />
+    <Content Include="bin\Debug\ClosedXML.pdb" />
+    <Content Include="bin\Debug\ClosedXML.xml" />
+    <Content Include="bin\Debug\CrystalDecisions.CrystalReports.Engine.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.ReportSource.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.Shared.dll" />
+    <Content Include="bin\Debug\CrystalDecisions.Windows.Forms.dll" />
+    <Content Include="bin\Debug\DoAn_LTQL.exe" />
+    <Content Include="bin\Debug\DoAn_LTQL.pdb" />
+    <Content Include="bin\Debug\DocumentFormat.OpenXml.dll" />
+    <Content Include="bin\Debug\DocumentFormat.OpenXml.Framework.dll" />
+    <Content Include="bin\Debug\DocumentFormat.OpenXml.Framework.xml" />
+    <Content Include="bin\Debug\DocumentFormat.OpenXml.xml" />
+    <Content Include="bin\Debug\ExcelNumberFormat.dll" />
+    <Content Include="bin\Debug\ExcelNumberFormat.xml" />
+    <Content Include="bin\Debug\Microsoft.Bcl.HashCode.dll" />
+    <Content Include="bin\Debug\Microsoft.Bcl.HashCode.xml" />
+    <Content Include="bin\Debug\RBush.dll" />
+    <Content Include="bin\Debug\RBush.xml" />
+    <Content Include="bin\Debug\SixLabors.Fonts.dll" />
+    <Content Include="bin\Debug\SixLabors.Fonts.xml" />
+    <Content Include="bin\Debug\stdole.dll" />
+    <Content Include="bin\Debug\System.Buffers.dll" />
+    <Content Include="bin\Debug\System.Buffers.xml" />
+    <Content Include="bin\Debug\System.Memory.dll" />
+    <Content Include="bin\Debug\System.Memory.xml" />
+    <Content Include="bin\Debug\System.Numerics.Vectors.dll" />
+    <Content Include="bin\Debug\System.Numerics.Vectors.xml" />
+    <Content Include="bin\Debug\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="bin\Debug\System.Runtime.CompilerServices.Unsafe.xml" />
+    <Content Include="obj\Debug\DoAn_LTQL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\DoAn_LTQL.exe" />
+    <Content Include="obj\Debug\DoAn_LTQL.pdb" />
+    <Content Include="obj\Debug\TempPE\QLSB_San.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\rptDoanhThu_San.cs.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
