@@ -55,7 +55,7 @@ namespace DoAn_LTQL
 
         private void frmKhachHang_Load(object sender, EventArgs e)
         {
-            db = new Database(@".\SQLEXPRESS", "QLSB");
+            db = new Database(@"DESKTOP-MA5J22U\SQLSERVER2022", "QLSB");
             LoadData();
         }
 
