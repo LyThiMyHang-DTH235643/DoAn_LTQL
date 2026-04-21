@@ -33,7 +33,7 @@ namespace DoAn_LTQL
         {
             // 1. Khởi tạo kết nối DB 
             // (Nhớ đổi "TEN_MAY_TINH\\SQLEXPRESS" thành tên Server SQL của bạn)
-            db = new Database(@".\SQLEXPRESS", "QLSB");
+            db = new Database(@"DESKTOP-MA5J22U\SQLSERVER2022", "QLSB");
 
             // 2. Mặc định chọn ngày hiện tại cho DateTimePicker
             dtpChonNgay.Value = DateTime.Now;
