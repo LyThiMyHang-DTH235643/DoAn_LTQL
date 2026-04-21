@@ -33,7 +33,7 @@ namespace DoAn_LTQL
         {
             // 1. Khởi tạo kết nối DB 
             // (Nhớ đổi "TEN_MAY_TINH\\SQLEXPRESS" thành tên Server SQL của bạn)
-            db = new Database(@"(localdb)\MSSQLLocalDB", "QLSB");
+            db = new Database(@".\SQLEXPRESS", "QLSB");
 
             // 2. Mặc định chọn ngày hiện tại cho DateTimePicker
             dtpChonNgay.Value = DateTime.Now;
@@ -76,7 +76,7 @@ namespace DoAn_LTQL
         private void LoadTrangThaiSan()
         {
             DateTime thoiGianBatDau = LayThoiGianBatDau();
-            string thoiGianSQL = thoiGianBatDau.ToString("yyyy-MM-dd HH:mm:00");
+            string thoiGianSQL = thoiGianBatDau.ToString("yyyyMMdd HH:mm:00");
 
             string sql = $@"
             SELECT d.MaDatSan, s.MaSan, s.TenSan, s.LoaiSan, s.TrangThai AS TrangThaiBaoTri, k.TenKH, k.SoDienThoai, d.TrangThaiDat

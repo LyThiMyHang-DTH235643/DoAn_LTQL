@@ -65,7 +65,7 @@ namespace DoAn_LTQL
 
         private void NhanVien_Load(object sender, EventArgs e)
         {
-            db = new Database(@"(localdb)\MSSQLLocalDB", "QLSB");
+            db = new Database(@".\SQLEXPRESS", "QLSB");
             txtMatKhau.PasswordChar = '*';
             LoadData();
         }
