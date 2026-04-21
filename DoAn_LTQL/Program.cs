@@ -16,7 +16,7 @@ namespace DoAn_LTQL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmHoaDon());
+            Application.Run(new frmHoaDon()); 
         }
     }
 }
